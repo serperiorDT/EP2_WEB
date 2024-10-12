@@ -1,0 +1,372 @@
+/* styles.css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #bd0909;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    z-index: 999;
+    font-family: cursive;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+    
+}
+
+nav ul li a{
+    color: #090258;
+}
+
+nav li a{
+    color: beige;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+nav li a:hover{
+    color: #d60fab;
+    text-decoration: none;
+    border:2px solid #000000;
+    background-color: #e7e18f;
+    border-radius: 25px;
+}
+
+
+.logo{
+    padding: 0 15px;
+}
+.logo img{
+    width: 95px;
+    height: auto;
+}
+
+.iconos {
+    display: flex;
+    
+}
+
+.iconos a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 18px;
+}
+.iconos a:hover {
+   
+    color: #dfd6d6;
+    
+}
+
+
+/* aquì se implementan los estilos css para la seccion uno*/
+
+.principal {
+    background-image: url('../imagen/japan.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidouno {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    color: #fff;
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.2);
+    
+    
+
+}
+
+.contenidouno h1{
+    font-size: 40px;
+    color: #000000e4;
+    margin-top: 200px;
+    margin-bottom: 15px;
+    text-shadow: 5px 5px 15px rgb(255, 232, 21);
+    letter-spacing: 3px;
+    font-family:"Sofadi One";
+}
+
+.contenidouno h2{
+    margin-bottom: 15px;
+    color: rgb(184, 11, 147);
+    font-family: "Edu AU VIC WA NT Dots", cursive;
+    text-transform: uppercase;
+}
+
+.contenidouno p{
+    margin-bottom: 30px;
+    font-family: "Qwitcher Grypen", cursive;
+    color: rgb(151, 6, 11);
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+
+}
+
+.button {
+    background-color: #000000;
+    color: rgb(204, 140, 12);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 25px;
+    margin: 0 30px;
+    font-family: "Londrina Sketch", sans-serif;
+    border: 8px dotted #e3d7d7;
+}
+
+.button:hover {
+    background-color: rgb(204, 140, 12);;
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 31px;
+    margin: 0 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+/*estilos para el contenido dos*/
+
+.banner {
+    background-image: url('../imagen/polar.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidodos {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: #fff;
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.contenidodos h2{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-family: "Protest Strike", sans-serif;
+    color: aqua;
+    font-size: 32px;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+}
+
+
+.figuras {
+    display: flex;
+    justify-content: center;
+}
+
+.figuras a {
+    margin: 0 10px;
+    color: #3207a8;
+    font-size: 18px;
+}
+.figuras a:hover {
+   
+    color: #bc13c8;
+    
+}
+
+
+
+
+/*creando la seccion 03 del contenido de la pagina*/
+
+  .galeria {
+    background-color: #109e49;
+    padding: 150px 0;
+    border-radius: 5px;
+   
+    }
+
+  .galeria h2 {
+    text-align: center;
+    font-size: 41px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: "Sixtyfour Convergence", sans-serif;
+    
+
+  }
+
+  .galeria p {
+    color: #960808;
+    text-align: center;
+    font-size: 28px;
+    line-height:5px ;
+    margin-bottom: 10px;
+    text-transform: lowercase;
+    font-family: "Ruge Boogie", cursive;
+  }
+
+  .contenidotres {
+    max-width: 1200px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+  }
+
+  .contenidotres .columna {
+    flex: 1;
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+    
+  }
+
+  .contenidotres .columna img {
+    max-width: 100%;
+    height: auto;
+    
+    padding: 5px;
+    border-radius: 4px;
+    
+  }
+
+  .contenidotres .columna p {
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+    font-family: "Ruge Boogie", cursive;
+    font-size: 30px;
+  }
+
+  .contenidotres .columna a {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #5c0080;
+    color: #000000;
+    text-decoration: none;
+    border: 5px solid #000000;
+    border-radius: 50%;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  .contenidotres .columna a:hover {
+    background-color: #1bb300;
+    padding: 30px 30px;
+    color: orangered;
+  }
+
+
+  
+  /*creando el Footer - pie de pagina final de
+  la pagina*/
+  
+  .footer {
+    background-color: #150ab0;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+
+
+
+  .filas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px; 
+  }
+  
+  .footer h3{
+    color: #960808;
+    font-size: 30px;   
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .footer p{
+color: rgb(2, 40, 2);
+font-size: 23px;
+text-transform: lowercase;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+footer h4{
+    color: #000000;
+    font-family: fantasy;
+    font-size: 60px;
+}
+ 
+  
+  .social-icons1 {
+    display: flex;  
+  }
+  
+
+
+  /* Aquí puedes agregar tu CSS */
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons li {
+    display: inline-block;
+    
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #d5f0f4;
+    font-size: 24px;
+    transition: color 0.3s;
+    
+}
+
+.social-icons a:hover {
+    color: #5a183d; /* Cambia esto según el color que desees para el hover */
+    font-size: 50px;
+}
+  
+
+  
